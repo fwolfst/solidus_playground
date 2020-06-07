@@ -10,6 +10,9 @@ Spree.config do |config|
   # Default country to Germany
   config.default_country_iso = 'DE'
 
+  # Restrict address checkout country list
+  config.checkout_zone = 'EU_VAT'
+
   # from address for transactional emails
   config.mails_from = "store@example.com"
 
