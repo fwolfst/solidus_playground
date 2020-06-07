@@ -7,6 +7,9 @@ Spree.config do |config|
   # Default currency for new sites
   config.currency = "USD"
 
+  # Default country to Germany
+  config.default_country_iso = 'DE'
+
   # from address for transactional emails
   config.mails_from = "store@example.com"
 
